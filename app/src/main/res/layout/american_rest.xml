@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/americanRest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AmericanRestActivity">
+
+
+    <Button
+        android:id="@+id/mcdonald"
+        android:layout_width="141dp"
+        android:layout_height="79dp"
+
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/mcd"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bking"
+        android:layout_width="159dp"
+        android:layout_height="90dp"
+
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/bk"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/mcdonald" />
+
+    <Button
+        android:id="@+id/wendy"
+        android:layout_width="159dp"
+        android:layout_height="90dp"
+
+
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/wendy"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/arbys"
+        android:layout_width="159dp"
+        android:layout_height="90dp"
+
+
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/arbys"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/wendy" />
+
+    <Button
+        android:id="@+id/fiveguys"
+        android:layout_width="159dp"
+        android:layout_height="90dp"
+
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/fiveguys"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/bking" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

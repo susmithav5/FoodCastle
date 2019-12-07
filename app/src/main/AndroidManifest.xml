@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodcastle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ThankYouActivity" />
+        <activity android:name=".OrderConfirmationActivity" />
+        <activity android:name=".PaymentConfirmActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".MyCartActivity" />
+        <activity android:name=".MexicanMenuActivity" />
+        <activity android:name=".ChineseMenuActivity" />
+        <activity android:name=".IndianMenuActivity" />
+        <activity android:name=".ItalianMenuActivity" />
+        <activity android:name=".AmericanMenuActivity" />
+        <activity android:name=".MexicanRestActivity" />
+        <activity android:name=".ChineseRestActivity" />
+        <activity android:name=".IndianRestActivity" />
+        <activity android:name=".ItalianRestActivity" />
+        <activity android:name=".AmericanRestActivity" />
+        <activity android:name=".FoodTypeActivity" />
+        <activity android:name=".Search" />
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

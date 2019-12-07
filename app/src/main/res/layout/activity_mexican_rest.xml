@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MexicanRestActivity">
+
+    <Button
+        android:id="@+id/chilly"
+        android:layout_width="141dp"
+        android:layout_height="79dp"
+
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/chill"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chipotle"
+        android:layout_width="159dp"
+        android:layout_height="90dp"
+
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/chipotle"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/chilly" />
+
+    <Button
+        android:id="@+id/moes"
+        android:layout_width="159dp"
+        android:layout_height="90dp"
+
+
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/moes"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/ontheborder"
+        android:layout_width="159dp"
+        android:layout_height="90dp"
+
+
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/border"
+        android:padding="20dp"
+
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/moes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

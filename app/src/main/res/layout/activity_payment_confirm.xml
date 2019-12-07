@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paymentconfirm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".PaymentConfirmActivity">
+
+    <TextView
+        android:id="@+id/payConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="57dp"
+        android:text="@string/payconfirm"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#8E24AA"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/faceID"
+        android:layout_width="149dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="212dp"
+
+
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/cast_skip_ad_label_border"
+        android:padding="20dp"
+        android:text="@string/faceid"
+        android:textColor="#8E24AA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/fingerprt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fingerprt"
+        android:layout_width="149dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="28dp"
+
+
+        android:layout_marginTop="104dp"
+
+        android:background="@drawable/cast_skip_ad_label_border"
+        android:padding="20dp"
+        android:text="@string/fingetPrn"
+        android:textColor="#E53935"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="193dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="257dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fingerprint" />
+
+    <Button
+        android:id="@+id/confirm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginBottom="127dp"
+        android:background="#8E24AA"
+        android:text="@string/confirm"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
